@@ -31,7 +31,7 @@ class ActualitesService{
 
     if (empty($nodes)) {
         return [];
-        }
+    }
     return Node::loadMultiple($nodes);
     }
 

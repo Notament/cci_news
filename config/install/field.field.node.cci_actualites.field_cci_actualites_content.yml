@@ -1,0 +1,24 @@
+uuid: 452591c8-09a6-4ea8-9631-8969b5009766
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cci_actualites_content
+    - node.type.cci_actualites
+  module:
+    - text
+_core:
+  default_config_hash: hwb3rmclJL20Ws08sxwWST8dn9uZtQ1uyCfSfPhz5aM
+id: node.cci_actualites.field_cci_actualites_content
+field_name: field_cci_actualites_content
+entity_type: node
+bundle: cci_actualites
+label: Content
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

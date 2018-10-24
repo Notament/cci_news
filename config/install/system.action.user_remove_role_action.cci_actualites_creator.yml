@@ -1,0 +1,16 @@
+uuid: c37b8d87-7015-48ef-8f20-a5bb6c61ffff
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.cci_actualites_creator
+  module:
+    - user
+_core:
+  default_config_hash: SteSnODdW8xpnTfSVbNpPZzkzdJkwgufgyNtvGi25c0
+id: user_remove_role_action.cci_actualites_creator
+label: 'Remove the Cci_Actualités creator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: cci_actualites_creator

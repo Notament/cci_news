@@ -1,0 +1,26 @@
+uuid: 77098d55-2fed-4b62-8f01-e0aa118db1bd
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.cci_actualites.field_cci_actualites_content
+    - field.field.node.cci_actualites.field_cci_actualites_date_pub
+    - node.type.cci_actualites
+  module:
+    - user
+_core:
+  default_config_hash: uytlU_dPO2DXV-hFJmUrEqN3bUpThNkiHabbpOCAys0
+id: node.cci_actualites.teaser
+targetEntityType: node
+bundle: cci_actualites
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_cci_actualites_content: true
+  field_cci_actualites_date_pub: true

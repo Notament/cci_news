@@ -1,0 +1,20 @@
+{% extends "block.html.twig" %}
+{#
+/**
+ * @file
+ * Custom block
+#}
+{% block content %}
+<div class="news_container">
+<h1 class="actu_title"> Bretagne économique </h1>
+    <div class="scrollable_container_actu">
+        {% for news in all_news %}
+        <div class="single_news_container">
+            <a class="hyperlink_actu" href="/node/{{news.nid.value}}">
+                {{ news.field_cci_actualites_date_pub.value|date("m/d/Y")|date("m/d/Y", "Europe/Paris") }} - {{ news.label}}
+            </a><br>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

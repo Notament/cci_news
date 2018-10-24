@@ -1,0 +1,5 @@
+name: 'Actualités & News CCI'
+type: module
+description: 'Retrieve last news'
+core: 8.x
+package: 'CCI'

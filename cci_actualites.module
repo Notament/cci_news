@@ -1,0 +1,14 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function cci_actualites_theme() {
+  return [
+    'cci_actualites' => [
+      'variables' => [
+        'all_news' => NULL
+      ],
+    ]
+  ];
+}

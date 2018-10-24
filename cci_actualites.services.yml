@@ -1,0 +1,3 @@
+services:
+  cci_actualites.actualites_service:
+    class: Drupal\cci_actualites\Service\ActualitesService

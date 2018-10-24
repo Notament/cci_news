@@ -1,0 +1,16 @@
+uuid: a8b881e1-f665-4ac0-9b8a-2c063a8ade24
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.cci_actualites_reviewer
+  module:
+    - user
+_core:
+  default_config_hash: vtUkIhrWOYKVwGRD7WWvX_PekfT5p35Ig5ZUp9qZLmU
+id: user_add_role_action.cci_actualites_reviewer
+label: 'Add the Cci_Actualités reviewer role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: cci_actualites_reviewer

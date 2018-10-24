@@ -1,0 +1,20 @@
+uuid: 30392c4a-c087-4162-9870-9ef940032ff6
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: 5ktqeHa0OpT8bXlvmc3xE3yLfbQWf_CBFU0jxcCqyv0
+name: Actualité
+type: cci_actualites
+description: 'News & Actualités'
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: true

@@ -1,0 +1,22 @@
+uuid: 4e64b1a1-8760-47bb-b941-cf7a499b9867
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime
+    - node
+_core:
+  default_config_hash: zbXRT2EMC-YvtUKht_JFeHmlhG8xD_zLkL4D8wWOuFo
+id: node.field_cci_actualites_date_pub
+field_name: field_cci_actualites_date_pub
+entity_type: node
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

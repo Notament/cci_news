@@ -1,0 +1,16 @@
+uuid: 3db6db52-194b-481c-8123-caa5fd43051c
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.cci_actualites_reviewer
+  module:
+    - user
+_core:
+  default_config_hash: u6PH_BNMC1OexUHNyo7Qp-oQw6nysjQRMzyfag7Dzn4
+id: user_remove_role_action.cci_actualites_reviewer
+label: 'Remove the Cci_Actualités reviewer role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: cci_actualites_reviewer

@@ -1,0 +1,16 @@
+uuid: 138dd371-eb16-4214-a62c-d12cd5d2312d
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.cci_actualites_creator
+  module:
+    - user
+_core:
+  default_config_hash: hZU86Spao1Dud2BIgLdPjW0Dj-lSdr5vxnib2f-Wy6Q
+id: user_add_role_action.cci_actualites_creator
+label: 'Add the Cci_Actualités creator role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: cci_actualites_creator

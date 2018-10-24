@@ -1,0 +1,24 @@
+uuid: 19dcdfc3-0f96-425f-9c68-ed2cd681aae9
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.cci_actualites
+_core:
+  default_config_hash: XcQJhxNHHKxy4N-B9ZKJr-Kgtlw7Zhx_texbiaLhdXk
+id: node.cci_actualites.status
+field_name: status
+entity_type: node
+bundle: cci_actualites
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

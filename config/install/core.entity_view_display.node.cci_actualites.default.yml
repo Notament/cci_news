@@ -1,0 +1,48 @@
+uuid: fcc8609a-8c3f-48b7-927a-f15ed2784d76
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.cci_actualites.field_cci_actualites_content
+    - field.field.node.cci_actualites.field_cci_actualites_date_pub
+    - node.type.cci_actualites
+  module:
+    - datetime
+    - panelizer
+    - text
+    - user
+third_party_settings:
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
+_core:
+  default_config_hash: 8765v4zcu-KgfqSR9cCTwDQ0WEoxFj5xddyxFecsiGQ
+id: node.cci_actualites.default
+targetEntityType: node
+bundle: cci_actualites
+mode: default
+content:
+  field_cci_actualites_content:
+    weight: 104
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_cci_actualites_date_pub:
+    weight: 103
+    label: hidden
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

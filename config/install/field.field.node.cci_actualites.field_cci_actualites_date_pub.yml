@@ -1,0 +1,26 @@
+uuid: 1e24afa2-6446-4189-a0c3-df2523c69934
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cci_actualites_date_pub
+    - node.type.cci_actualites
+  module:
+    - datetime
+_core:
+  default_config_hash: jWsARTPGDw1-340FAUL_PzCcah1UaV-i1aSgQ-L_D6c
+id: node.cci_actualites.field_cci_actualites_date_pub
+field_name: field_cci_actualites_date_pub
+entity_type: node
+bundle: cci_actualites
+label: 'Date publication'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime

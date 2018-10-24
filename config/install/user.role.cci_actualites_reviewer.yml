@@ -1,0 +1,21 @@
+uuid: 0bac489d-3845-47e3-a0ad-7145044480cb
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Z95hC_tCDi5PPuzdNzrL-lQ42Gn09jk29Od_b7fnaWY
+id: cci_actualites_reviewer
+label: 'Cci_Actualités reviewer'
+weight: 14
+is_admin: false
+permissions:
+  - 'access content overview'
+  - 'access toolbar'
+  - 'delete any cci_actualites content'
+  - 'edit any cci_actualites content'
+  - 'use editorial transition archive'
+  - 'use editorial transition publish'
+  - 'use editorial transition review'
+  - 'use moderation sidebar'
+  - 'view any unpublished content'
+  - 'view latest version'

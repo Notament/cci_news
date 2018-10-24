@@ -16,7 +16,8 @@ class ActualitesService{
    * Fetch the news that will display;
    *
    * @return array The nodes.
-   *   empty if there is no node, array of nodes if there is.
+   *   empty if there is no node,
+   *   array of nodes if there is.
    */
   public function lastNews(){
 
